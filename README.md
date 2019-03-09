@@ -11,6 +11,7 @@ To get started,
   retarded things like Manjaro. If you're comfortable with a TUI installer, then use Anarchy.
 
 [1] - https://lists.manjaro.org/pipermail/manjaro-security/2018-August/000785.html
+
 [2] - https://www.reddit.com/r/linux/comments/31yayt/manjaro_forgot_to_upgrade_their_ssl_certificate/ 
 
 https://www.reddit.com/r/linux/comments/4inrut/manjaros_ssl_certificate_expired_again/
