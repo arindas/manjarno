@@ -35,12 +35,12 @@ Their own updater had a security vulnerability which wasn't fixed
 until recently [2]. This is actually a core package, not an extra or
 community package. To quote the list,
 
-+BEGIN_QUOTE
+#+BEGIN_QUOTE
 I have discovered an issue with one of your core Manjaro packages,
 `manjaro-system` 20180716-1 and earlier.
 The issue allows a local attacker to execute a Denial of Service,
 Arbitrary Code Execution, and Privilege Escalation attack.
-+END_QUOTE
+#+END_QUOTE
 
 The amount of attacks that can be done due to the vulnerability is a
 lot!
