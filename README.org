@@ -1,0 +1,32 @@
+* Manjaro is not ARCH!
+A lot of Manjaro users I have talked to say that Manjaro is just Arch
+with an installer. However, this is fundamentally wrong!
+
+Manjaro maintains a separate repository which is not in sync with Arch's
+main repositories which means Manjaro is not /just/ Arch. To add to that,
+even Manjaro wiki states that it is not Arch [1]! To quote the wiki,
+
+#+BEGIN_QUOTE
+In fact, the differences between Manjaro and Arch are far greater than
+the differences between the popular Ubuntu distribution and its many
+derivatives, including Mint and Zorin.
+#+END_QUOTE
+
+* Own repository
+Manjaro claims to be stable just by delaying packages for a week. This
+is not an approach a stable distribution would take at all!
+
+** The problems introduced
+If Manjaro had to be actually stable, it needs to hold back the AUR packages
+as well. It has to maintain its AUR that is in sync with the Manjaro repos.
+
+Say that a package in the AUR depends on a library, say libxyz. And libxyz is
+in the main repos, not in the AUR. The package is updated so that it relies
+on the new features introduced in libxyz's version 1.1 however Manjaro delays
+packages so libxyz is still on 1.0 in Manjaro. If you update the package in
+Manjaro, it will break because Manjaro holds back packages. So the only
+way Manjaro can be stable is by literally forking all the Arch related
+repositories including the AUR and keeping them in sync.
+
+* Links
+[1] https://wiki.manjaro.org/index.php?title=Manjaro:_A_Different_Kind_of_Beast
