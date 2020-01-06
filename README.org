@@ -45,18 +45,36 @@ Arbitrary Code Execution, and Privilege Escalation attack.
 The amount of attacks that can be done due to the vulnerability is a
 lot!
 
-* SSL Certificates
-Manjaro let their SSL certificates expire not once but twice [3]!
-The first time, they asked the users to use a private window [4].
-The second time when the SSL certificates expired, they did the same [5].
+The Manjaro updater [3] does all the bad practices that one could do in
+a general Linux system and Arch Linux system specifically. Each time
+the system updates, they reinstall some packages to "fix" issues and
+they use the =--no-confirm= flag (force) everytime they do so and
+various other odd sequence of commands which are just as bad, if not
+more.
 
+In an update, password less updates in pamac (Manjaro's AUR helper)
+were sneaked in and from the look in the issue [4] made concerning this,
+the change was made to look like a "feature". This is a major security
+issue considering that packages in AUR are not checked by Arch Linux
+maintainers (and Manjaro does not maintain its own either). Some AUR
+packages were found to be malware in the past. So think about a casual
+user (Manjaro's target democratic are not really power users) installing
+a harmless-looking AUR package that could potentially mess their system!
+* SSL Certificates
+Manjaro let their SSL certificates expire not once but twice [5]!
+The first time, they asked the users to use a private window [6].
+The second time when the SSL certificates expired, they did the same [7].
 * Links
 [1] https://wiki.manjaro.org/index.php?title=Manjaro:_A_Different_Kind_of_Beast
 
 [2] https://lists.manjaro.org/pipermail/manjaro-security/2018-August/000785.html
 
-[3] https://www.reddit.com/r/linux/comments/4inrut/manjaros_ssl_certificate_expired_again/
+[3] https://gitlab.manjaro.org/packages/core/manjaro-system/blob/master/manjaro-update-system.sh#L34
 
-[4] https://web.archive.org/web/20150409112614/https://manjaro.github.io/
+[4] https://gitlab.manjaro.org/applications/pamac/issues/719
 
-[5] https://web.archive.org/web/20160512210401/https://manjaro.github.io/
+[5] https://www.reddit.com/r/linux/comments/4inrut/manjaros_ssl_certificate_expired_again/
+
+[6] https://web.archive.org/web/20150409112614/https://manjaro.github.io/
+
+[7] https://web.archive.org/web/20160512210401/https://manjaro.github.io/
