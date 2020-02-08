@@ -58,7 +58,7 @@ the change was made to look like a "feature". This is a major security
 issue considering that packages in AUR are not checked by Arch Linux
 maintainers (and Manjaro does not maintain its own either). Some AUR
 packages were found to be malware in the past. So think about a casual
-user (Manjaro's target democratic are not really power users) installing
+user (Manjaro's target demographic are not really power users) installing
 a harmless-looking AUR package that could potentially mess their system!
 * SSL Certificates
 Manjaro let their SSL certificates expire not once but twice [5]!
