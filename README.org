@@ -62,7 +62,8 @@ user (Manjaro's target demographic are not really power users) installing
 a harmless-looking AUR package that could potentially mess their system!
 * SSL Certificates
 Manjaro let their SSL certificates expire not once but twice [5]!
-The first time, they asked the users to use a private window [6].
+The first time, they asked the users to use a private window and/or change
+the system time [6].
 The second time when the SSL certificates expired, they did the same [7].
 * Links
 [1] https://wiki.manjaro.org/index.php?title=Manjaro:_A_Different_Kind_of_Beast
