@@ -1,22 +1,20 @@
-* Manjaro is not ARCH!
+# Manjaro is not ARCH!
 A lot of Manjaro users I have talked to say that Manjaro is just Arch
 with an installer. However, this is fundamentally wrong!
 
 Manjaro maintains a separate repository which is not in sync with Arch's
-main repositories which means Manjaro is not /just/ Arch. To add to that,
+main repositories which means Manjaro is not *just* Arch. To add to that,
 even Manjaro wiki states that it is not Arch [1]! To quote the wiki,
 
-#+BEGIN_QUOTE
-In fact, the differences between Manjaro and Arch are far greater than
-the differences between the popular Ubuntu distribution and its many
-derivatives, including Mint and Zorin.
-#+END_QUOTE
+> In fact, the differences between Manjaro and Arch are far greater than
+> the differences between the popular Ubuntu distribution and its many
+> derivatives, including Mint and Zorin.
 
-* Own repository
+# Own repository
 Manjaro claims to be stable just by delaying packages for a week. This
 is not an approach a stable distribution would take at all!
 
-** The problems introduced
+## The problems introduced
 If Manjaro had to be actually stable, it needs to hold back the AUR packages
 as well. It has to maintain its AUR that is in sync with the Manjaro repos.
 
@@ -28,19 +26,17 @@ Manjaro, it will break because Manjaro holds back packages. So the only
 way Manjaro can be stable is by literally forking all the Arch related
 repositories including the AUR and keeping them in sync.
 
-* Security
+# Security
 Manjaro is not really a secure distro.
 
 Their own updater had a security vulnerability which wasn't fixed
 until recently [2]. This is actually a core package, not an extra or
 community package. To quote the list,
 
-#+BEGIN_QUOTE
-I have discovered an issue with one of your core Manjaro packages,
-`manjaro-system` 20180716-1 and earlier.
-The issue allows a local attacker to execute a Denial of Service,
-Arbitrary Code Execution, and Privilege Escalation attack.
-#+END_QUOTE
+> I have discovered an issue with one of your core Manjaro packages,
+> `manjaro-system` 20180716-1 and earlier.
+> The issue allows a local attacker to execute a Denial of Service,
+> Arbitrary Code Execution, and Privilege Escalation attack.
 
 The amount of attacks that can be done due to the vulnerability is a
 lot!
@@ -48,7 +44,7 @@ lot!
 The Manjaro updater [3] does all the bad practices that one could do in
 a general Linux system and Arch Linux system specifically. Each time
 the system updates, they reinstall some packages to "fix" issues and
-they use the =--no-confirm= flag (force) everytime they do so and
+they use the `--no-confirm` flag (force) everytime they do so and
 various other odd sequence of commands which are just as bad, if not
 more.
 
@@ -60,12 +56,14 @@ maintainers (and Manjaro does not maintain its own either). Some AUR
 packages were found to be malware in the past. So think about a casual
 user (Manjaro's target demographic are not really power users) installing
 a harmless-looking AUR package that could potentially mess their system!
-* SSL Certificates
+
+# SSL Certificates
 Manjaro let their SSL certificates expire not once but twice [5]!
 The first time, they asked the users to use a private window and/or change
 the system time [6].
 The second time when the SSL certificates expired, they did the same [7].
-* Links
+
+# Links
 [1] https://wiki.manjaro.org/index.php?title=Manjaro:_A_Different_Kind_of_Beast
 
 [2] https://lists.manjaro.org/pipermail/manjaro-security/2018-August/000785.html
