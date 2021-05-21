@@ -63,6 +63,11 @@ The first time, they asked the users to use a private window and/or change
 the system time [6].
 The second time when the SSL certificates expired, they did the same [7].
 
+# DDoS'ing the AUR
+
+On 2021-04-26, the AUR (Arch User Repository) was DDoS'd by a bad version
+of pamac, which is the default Graphical Package Manager for Manjaro [8].
+
 # Links
 [1] https://wiki.manjaro.org/index.php?title=Manjaro:_A_Different_Kind_of_Beast
 
@@ -77,3 +82,5 @@ The second time when the SSL certificates expired, they did the same [7].
 [6] https://web.archive.org/web/20150409112614/https://manjaro.github.io/
 
 [7] https://web.archive.org/web/20160512210401/https://manjaro.github.io/
+
+[8] https://gitlab.manjaro.org/applications/pamac/-/issues/1017
