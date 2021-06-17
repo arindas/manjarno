@@ -68,6 +68,17 @@ The second time when the SSL certificates expired, they did the same [7].
 On 2021-04-26, the AUR (Arch User Repository) was DDoS'd by a bad version
 of pamac, which is the default Graphical Package Manager for Manjaro [8].
 
+# Fishy Finances
+
+It appears that, in September of 2019, Manjaro switched from holding community donations in Philip Müller's personal bank account to accounts being held by OpenCollective and CommunityBridge [9]. This change also brought on Jonathon Fernyhough as treasurer. There is also a policy in place that requires all expenses to be discussed on approved channels and nominally approved prior to any purchases [10]. On (or around) July 24th of 2020, a request for a \$2,000 laptop was made by Philip for developer Helmut Stult [11].  Johnathon rejected this expense due to lack of prior discussion and questioned the expense [13]. The role of treasurer is now back fully in Philip's hands, and has approved the \$2,000 laptop.  This draws questions on the integrity of Philip's leadership.
+
+Further discussions and sources:
+
+- https://linuxreviews.org/Manjaro_Linux_Lead_Developer_In_Hot_Waters_Over_Donation_Slush_Fund_For_Laptop_And_Personal_Items
+- https://www.reddit.com/r/ManjaroLinux/comments/hwo33h/change_of_treasurer_for_manjaro_community_funds/
+- https://www.reddit.com/r/linux/comments/hwoev3/change_of_treasurer_for_manjaro_community_funds/
+- https://web.archive.org/web/20200807042341/https://forum.manjaro.org/t/change-of-treasurer-for-manjaro-community-funds/154888
+
 # Links
 [1] https://wiki.manjaro.org/index.php?title=Manjaro:_A_Different_Kind_of_Beast
 
@@ -84,3 +95,11 @@ of pamac, which is the default Graphical Package Manager for Manjaro [8].
 [7] https://web.archive.org/web/20160512210401/https://manjaro.github.io/
 
 [8] https://gitlab.manjaro.org/applications/pamac/-/issues/1017
+
+[9] https://archived.forum.manjaro.org/t/manjaro-is-taking-the-next-step/102105
+
+[10] https://opencollective.com/manjaro/expenses/new (Will show a login prompt, policy can be seen on the right side of the page without logging in)
+
+[12] https://opencollective.com/manjaro/expenses/22477
+
+[13] https://web.archive.org/web/20200807042341/https://forum.manjaro.org/t/change-of-treasurer-for-manjaro-community-funds/154888
