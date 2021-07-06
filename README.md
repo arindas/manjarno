@@ -1,11 +1,13 @@
 # manjarno
 Repository which documents some reasons for not using Manjaro.
 
-## Manjaro isn't Arch
-(which isn't the main issue by itself; the problems introduced are)
+__Disclaimer__: I don't _hate_ Manjaro. These are some reasons
+which made me consider shifting to a different distro. I don't
+use Arch myself, I use Endeavour OS. With all things being said,
+I still think Manjaro is a good starting point for beginners who
+want to explore an Arch <strike>based</strike> _like_ distro.
 
-A lot of Manjaro users I have talked to say that Manjaro is just Arch
-with an installer. However, this is fundamentally wrong!
+## Package Repository issues
 
 Manjaro maintains a separate repository which is not in sync with Arch's
 main repositories which means Manjaro is not *just* Arch. To add to that,
@@ -14,6 +16,9 @@ even Manjaro wiki states that it is not Arch [1]! To quote the wiki,
 > In fact, the differences between Manjaro and Arch are far greater than
 > the differences between the popular Ubuntu distribution and its many
 > derivatives, including Mint and Zorin.
+
+(Yes, Manjaro isn't Arch and Manjaro user's _shouldn't_ be quoting the _"btw"_
+line. However, I don't really care.)
 
 ### Own repository
 Manjaro claims to be stable just by delaying packages for a week. This
