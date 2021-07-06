@@ -1,4 +1,9 @@
-# Manjaro is not ARCH!
+# manjarno
+Repository which documents some reasons for not using Manjaro.
+
+## Manjaro isn't Arch
+(which isn't the main issue by itself; the problems introduced are)
+
 A lot of Manjaro users I have talked to say that Manjaro is just Arch
 with an installer. However, this is fundamentally wrong!
 
@@ -10,11 +15,11 @@ even Manjaro wiki states that it is not Arch [1]! To quote the wiki,
 > the differences between the popular Ubuntu distribution and its many
 > derivatives, including Mint and Zorin.
 
-# Own repository
+### Own repository
 Manjaro claims to be stable just by delaying packages for a week. This
 is not an approach a stable distribution would take at all!
 
-## The problems introduced
+### The problems introduced
 If Manjaro had to be actually stable, it needs to hold back the AUR packages
 as well. It has to maintain its AUR that is in sync with the Manjaro repos.
 
@@ -26,7 +31,7 @@ Manjaro, it will break because Manjaro holds back packages. So the only
 way Manjaro can be stable is by literally forking all the Arch related
 repositories including the AUR and keeping them in sync.
 
-# Security
+## Security
 Manjaro is not really a secure distro.
 
 Their own updater had a security vulnerability which wasn't fixed
@@ -57,18 +62,18 @@ packages were found to be malware in the past. So think about a casual
 user (Manjaro's target demographic are not really power users) installing
 a harmless-looking AUR package that could potentially mess their system!
 
-# SSL Certificates
+## SSL Certificates
 Manjaro let their SSL certificates expire not once but twice [5]!
 The first time, they asked the users to use a private window and/or change
 the system time [6].
 The second time when the SSL certificates expired, they did the same [7].
 
-# DDoS'ing the AUR
+## DDoS'ing the AUR
 
 On 2021-04-26, the AUR (Arch User Repository) was DDoS'd by a bad version
 of pamac, which is the default Graphical Package Manager for Manjaro [8].
 
-# Fishy Finances
+## Fishy Finances
 
 It appears that, in September of 2019, Manjaro switched from holding community donations in Philip Müller's personal bank account to accounts being held by OpenCollective and CommunityBridge [9]. This change also brought on Jonathon Fernyhough as treasurer. There is also a policy in place that requires all expenses to be discussed on approved channels and nominally approved prior to any purchases [10]. On (or around) July 24th of 2020, a request for a \$2,000 laptop was made by Philip for developer Helmut Stult [11].  Johnathon rejected this expense due to lack of prior discussion and questioned the expense [13]. The role of treasurer is now back fully in Philip's hands, and has approved the \$2,000 laptop.  This draws questions on the integrity of Philip's leadership.
 
@@ -79,7 +84,7 @@ Further discussions and sources:
 - https://www.reddit.com/r/linux/comments/hwoev3/change_of_treasurer_for_manjaro_community_funds/
 - https://web.archive.org/web/20200807042341/https://forum.manjaro.org/t/change-of-treasurer-for-manjaro-community-funds/154888
 
-# Links
+## Links
 [1] https://wiki.manjaro.org/index.php?title=Manjaro:_A_Different_Kind_of_Beast
 
 [2] https://lists.manjaro.org/pipermail/manjaro-security/2018-August/000785.html
