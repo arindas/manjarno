@@ -25,7 +25,7 @@ even Manjaro wiki states that it is not Arch [1]! To quote the wiki,
 > the differences between the popular Ubuntu distribution and its many
 > derivatives, including Mint and Zorin.
 
-(Yes, Manjaro isn't Arch and Manjaro user's _shouldn't_ be quoting the _"btw"_
+(Yes, Manjaro isn't Arch and Manjaro users _shouldn't_ use the _"btw"_
 line. However, I don't really care.)
 
 ### Own repository
