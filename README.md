@@ -2,10 +2,18 @@
 Repository which documents some reasons for not using Manjaro.
 
 __Disclaimer__: I don't _hate_ Manjaro. These are some reasons
-which made me consider shifting to a different distro. I don't
-use Arch myself, I use Endeavour OS. With all things being said,
-I still think Manjaro is a good starting point for beginners who
-want to explore an Arch <strike>based</strike> _like_ distro.
+which made me consider shifting to a different distro. However, 
+I still believe that Manjaro is a good starting point for 
+beginners who want to explore an Arch <strike>based</strike> 
+_like_ distro.
+
+__Note__: To clarify my stance, I should state what I use personally.
+I use Endeavour OS, which uses Arch repositories directly.
+They maintain a seperate 
+[repository](https://github.com/endeavouros-team/PKGBUILDS) for 
+distributing packages for theming, some small utilities and 
+drivers - none of which override any packages in Arch mainline
+repositories.
 
 ## Package Repository issues
 
