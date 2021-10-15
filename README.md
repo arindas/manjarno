@@ -116,7 +116,7 @@ Further discussions and sources:
 
 [8] https://gitlab.manjaro.org/applications/pamac/-/issues/1017
 
-[9] https://reddit.it/q85t8n/
+[9] https://redd.it/q85t8n/
 
 [10] https://gitlab.manjaro.org/applications/pamac/-/issues/1135
 
