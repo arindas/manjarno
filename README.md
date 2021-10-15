@@ -86,9 +86,11 @@ The second time when the SSL certificates expired, they did the same [7].
 On 2021-04-26, the AUR (Arch User Repository) was DDoS'd by a bad version
 of pamac, which is the default Graphical Package Manager for Manjaro [8].
 
+On 2021-10-14, Pamac was once again blocked by the AUR for shipping another bad version that flooded the AUR with requests [9, 10].
+
 ## Fishy Finances
 
-It appears that, in September of 2019, Manjaro switched from holding community donations in Philip Müller's personal bank account to accounts being held by OpenCollective and CommunityBridge [9]. This change also brought on Jonathon Fernyhough as treasurer. There is also a policy in place that requires all expenses to be discussed on approved channels and nominally approved prior to any purchases [10]. On (or around) July 24th of 2020, a request for a \$2,000 laptop was made by Philip for developer Helmut Stult [11].  Johnathon rejected this expense due to lack of prior discussion and questioned the expense [13]. The role of treasurer is now back fully in Philip's hands, and has approved the \$2,000 laptop.  This draws questions on the integrity of Philip's leadership.
+It appears that, in September of 2019, Manjaro switched from holding community donations in Philip Müller's personal bank account to accounts being held by OpenCollective and CommunityBridge [11]. This change also brought on Jonathon Fernyhough as treasurer. There is also a policy in place that requires all expenses to be discussed on approved channels and nominally approved prior to any purchases [12]. On (or around) July 24th of 2020, a request for a \$2,000 laptop was made by Philip for developer Helmut Stult [13].  Johnathon rejected this expense due to lack of prior discussion and questioned the expense [14]. The role of treasurer is now back fully in Philip's hands, and has approved the \$2,000 laptop.  This draws questions on the integrity of Philip's leadership.
 
 Further discussions and sources:
 
@@ -114,10 +116,14 @@ Further discussions and sources:
 
 [8] https://gitlab.manjaro.org/applications/pamac/-/issues/1017
 
-[9] https://archived.forum.manjaro.org/t/manjaro-is-taking-the-next-step/102105
+[9] https://reddit.it/q85t8n/
 
-[10] https://opencollective.com/manjaro/expenses/new (Will show a login prompt, policy can be seen on the right side of the page without logging in)
+[10] https://gitlab.manjaro.org/applications/pamac/-/issues/1135
 
-[12] https://opencollective.com/manjaro/expenses/22477
+[11] https://archived.forum.manjaro.org/t/manjaro-is-taking-the-next-step/102105
 
-[13] https://web.archive.org/web/20200807042341/https://forum.manjaro.org/t/change-of-treasurer-for-manjaro-community-funds/154888
+[12] https://opencollective.com/manjaro/expenses/new (Will show a login prompt, policy can be seen on the right side of the page without logging in)
+
+[13] https://opencollective.com/manjaro/expenses/22477
+
+[14] https://web.archive.org/web/20200807042341/https://forum.manjaro.org/t/change-of-treasurer-for-manjaro-community-funds/154888
