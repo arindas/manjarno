@@ -76,21 +76,22 @@ user (Manjaro's target demographic are not really power users) installing
 a harmless-looking AUR package that could potentially mess their system!
 
 ## SSL Certificates
-Manjaro let their SSL certificates expire not once but twice [5]!
+Manjaro let their SSL certificates expire not once, not twice, but thrice [5]!
 The first time, they asked the users to use a private window and/or change
 the system time [6].
 The second time when the SSL certificates expired, they did the same [7].
+The third SSL certificate expiration was handled a little more sanely[8].
 
 ## DDoS'ing the AUR
 
 On 2021-04-26, the AUR (Arch User Repository) was DDoS'd by a bad version
-of pamac, which is the default Graphical Package Manager for Manjaro [8].
+of pamac, which is the default Graphical Package Manager for Manjaro [9].
 
-On 2021-10-14, Pamac was once again blocked by the AUR for shipping another bad version that flooded the AUR with requests [9, 10].
+On 2021-10-14, Pamac was once again blocked by the AUR for shipping another bad version that flooded the AUR with requests [10, 11].
 
 ## Fishy Finances
 
-It appears that, in September of 2019, Manjaro switched from holding community donations in Philip Müller's personal bank account to accounts being held by OpenCollective and CommunityBridge [11]. This change also brought on Jonathon Fernyhough as treasurer. There is also a policy in place that requires all expenses to be discussed on approved channels and nominally approved prior to any purchases [12]. On (or around) July 24th of 2020, a request for a \$2,000 laptop was made by Philip for developer Helmut Stult [13].  Johnathon rejected this expense due to lack of prior discussion and questioned the expense [14]. The role of treasurer is now back fully in Philip's hands, and has approved the \$2,000 laptop.  This draws questions on the integrity of Philip's leadership.
+It appears that, in September of 2019, Manjaro switched from holding community donations in Philip Müller's personal bank account to accounts being held by OpenCollective and CommunityBridge [12]. This change also brought on Jonathon Fernyhough as treasurer. There is also a policy in place that requires all expenses to be discussed on approved channels and nominally approved prior to any purchases [13]. On (or around) July 24th of 2020, a request for a \$2,000 laptop was made by Philip for developer Helmut Stult [14].  Johnathon rejected this expense due to lack of prior discussion and questioned the expense [15]. The role of treasurer is now back fully in Philip's hands, and has approved the \$2,000 laptop.  This draws questions on the integrity of Philip's leadership.
 
 Further discussions and sources:
 
@@ -116,14 +117,16 @@ Further discussions and sources:
 
 [8] https://gitlab.manjaro.org/applications/pamac/-/issues/1017
 
-[9] https://redd.it/q85t8n/
+[9] https://web.archive.org/web/20220102232338/https://forum.manjaro.org/t/expired-certificate-for-iso-download-on-download-manjaro-org/96441
 
-[10] https://gitlab.manjaro.org/applications/pamac/-/issues/1135
+[10] https://redd.it/q85t8n/
 
-[11] https://archived.forum.manjaro.org/t/manjaro-is-taking-the-next-step/102105
+[11] https://gitlab.manjaro.org/applications/pamac/-/issues/1135
 
-[12] https://opencollective.com/manjaro/expenses/new (Will show a login prompt, policy can be seen on the right side of the page without logging in)
+[12] https://archived.forum.manjaro.org/t/manjaro-is-taking-the-next-step/102105
 
-[13] https://opencollective.com/manjaro/expenses/22477
+[13] https://opencollective.com/manjaro/expenses/new (Will show a login prompt, policy can be seen on the right side of the page without logging in)
 
-[14] https://web.archive.org/web/20200807042341/https://forum.manjaro.org/t/change-of-treasurer-for-manjaro-community-funds/154888
+[14] https://opencollective.com/manjaro/expenses/22477
+
+[15] https://web.archive.org/web/20200807042341/https://forum.manjaro.org/t/change-of-treasurer-for-manjaro-community-funds/154888
