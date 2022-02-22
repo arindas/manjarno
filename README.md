@@ -9,7 +9,7 @@ _like_ distro.
 
 __Note__: To clarify my stance, I should state what I use personally.
 I use Endeavour OS, which uses Arch repositories directly.
-They maintain a seperate 
+They maintain a separate 
 [repository](https://github.com/endeavouros-team/PKGBUILDS) for 
 distributing packages for theming, some small utilities and 
 drivers - none of which override any packages in Arch mainline
@@ -17,7 +17,7 @@ repositories.
 
 ## Package Repository issues
 
-Manjaro maintains a separate repository which is not in sync with Arch's
+Manjaro maintains a separate repository that is not in sync with Arch's
 main repositories which means Manjaro is not *just* Arch. To add to that,
 even Manjaro wiki states that it is not Arch [1]! To quote the wiki,
 
@@ -47,7 +47,7 @@ repositories including the AUR and keeping them in sync.
 ## Security
 Manjaro is not really a secure distro.
 
-Their own updater had a security vulnerability which wasn't fixed
+Their own updater had a security vulnerability that wasn't fixed
 until recently [2]. This is actually a core package, not an extra or
 community package. To quote the list,
 
@@ -62,8 +62,8 @@ lot!
 The Manjaro updater [3] does all the bad practices that one could do in
 a general Linux system and Arch Linux system specifically. Each time
 the system updates, they reinstall some packages to "fix" issues and
-they use the `--no-confirm` flag (force) everytime they do so and
-various other odd sequence of commands which are just as bad, if not
+they use the `--no-confirm` flag (force) every time they do so and
+various other odd sequences of commands which are just as bad, if not
 more.
 
 In an update, password less updates in pamac (Manjaro's AUR helper)
@@ -73,7 +73,7 @@ issue considering that packages in AUR are not checked by Arch Linux
 maintainers (and Manjaro does not maintain its own either). Some AUR
 packages were found to be malware in the past. So think about a casual
 user (Manjaro's target demographic are not really power users) installing
-a harmless-looking AUR package that could potentially mess their system!
+a harmless-looking AUR package that could potentially mess up their system!
 
 ## SSL Certificates
 Manjaro let their SSL certificates expire not once, not twice, but thrice [5]!
