@@ -47,8 +47,8 @@ repositories including the AUR and keeping them in sync.
 ## Security
 Manjaro is not really a secure distro.
 
-Their own updater had a security vulnerability that wasn't fixed
-until recently [2]. This is actually a core package, not an extra or
+Their own updater had a serious security vulnerability which has fortunately 
+been fixed [2]. This is actually a core package, not an extra or
 community package. To quote the list,
 
 > I have discovered an issue with one of your core Manjaro packages,
@@ -56,15 +56,8 @@ community package. To quote the list,
 > The issue allows a local attacker to execute a Denial of Service,
 > Arbitrary Code Execution, and Privilege Escalation attack.
 
-The amount of attacks that can be done due to the vulnerability is a
+The amount of attacks that could have been done due to this vulnerability is a
 lot!
-
-The Manjaro updater [3] does all the bad practices that one could do in
-a general Linux system and Arch Linux system specifically. Each time
-the system updates, they reinstall some packages to "fix" issues and
-they use the `--no-confirm` flag (force) every time they do so and
-various other odd sequences of commands which are just as bad, if not
-more.
 
 In an update, password less updates in pamac (Manjaro's AUR helper)
 were sneaked in and from the look in the issue [4] made concerning this,
@@ -74,6 +67,15 @@ maintainers (and Manjaro does not maintain its own either). Some AUR
 packages were found to be malware in the past. So think about a casual
 user (Manjaro's target demographic are not really power users) installing
 a harmless-looking AUR package that could potentially mess up their system!
+
+### Other problems in the Manjaro system updater 
+
+The Manjaro updater [3] does all the bad practices that one could do in
+a general Linux system and Arch Linux system specifically. Each time
+the system updates, they reinstall some packages to "fix" issues and
+they use the `--no-confirm` flag (force) every time they do so and
+various other odd sequences of commands which are just as bad, if not
+more.
 
 ## SSL Certificates
 Manjaro let their SSL certificates expire not once, not twice, but thrice [5]!
