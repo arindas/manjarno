@@ -78,11 +78,12 @@ various other odd sequences of commands which are just as bad, if not
 more.
 
 ## SSL Certificates
-Manjaro let their SSL certificates expire not once, not twice, but thrice [5]!
+Manjaro let their SSL certificates expire not once, not twice, not thrice, but four times [5]!
 The first time, they asked the users to use a private window and/or change
 the system time [6].
 The second time when the SSL certificates expired, they did the same [7].
 The third SSL certificate expiration was handled a little more sanely[8].
+The fourth time, HSTS was set but the website was still down [16].
 
 ## DDoS'ing the AUR
 
@@ -111,7 +112,7 @@ Further discussions and sources:
 
 [4] https://gitlab.manjaro.org/applications/pamac/issues/719
 
-[5] https://www.reddit.com/r/linux/comments/4inrut/manjaros_ssl_certificate_expired_again/
+[5] https://www.reddit.com/r/linuxquestions/comments/wqzrpl/did_manjaro_just_forget_to_renew_the_ssl/
 
 [6] https://web.archive.org/web/20150409112614/https://manjaro.github.io/
 
@@ -132,3 +133,5 @@ Further discussions and sources:
 [14] https://opencollective.com/manjaro/expenses/22477
 
 [15] https://web.archive.org/web/20200807042341/https://forum.manjaro.org/t/change-of-treasurer-for-manjaro-community-funds/154888
+
+[16] https://manjarno.snorlax.sh/expiry-2022-08-17.png
