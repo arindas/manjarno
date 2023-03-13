@@ -118,10 +118,6 @@ On 2021-10-14, Pamac was once again blocked by the AUR for shipping another bad 
 
 [12] https://archived.forum.manjaro.org/t/manjaro-is-taking-the-next-step/102105
 
-[13] https://opencollective.com/manjaro/expenses/new (Will show a login prompt, policy can be seen on the right side of the page without logging in)
 
-[14] https://opencollective.com/manjaro/expenses/22477
-
-[15] https://web.archive.org/web/20200807042341/https://forum.manjaro.org/t/change-of-treasurer-for-manjaro-community-funds/154888
 
 [16] https://manjarno.snorlax.sh/expiry-2022-08-17.png
