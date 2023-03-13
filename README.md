@@ -92,16 +92,6 @@ of pamac, which is the default Graphical Package Manager for Manjaro [9].
 
 On 2021-10-14, Pamac was once again blocked by the AUR for shipping another bad version that flooded the AUR with requests [10, 11].
 
-## Fishy Finances
-
-It appears that, in September of 2019, Manjaro switched from holding community donations in Philip Müller's personal bank account to accounts being held by OpenCollective and CommunityBridge [12]. This change also brought on Jonathon Fernyhough as treasurer. There is also a policy in place that requires all expenses to be discussed on approved channels and nominally approved prior to any purchases [13]. On (or around) July 24th of 2020, a request for a \$2,000 laptop was made by Philip for developer Helmut Stult [14].  Johnathon rejected this expense due to lack of prior discussion and questioned the expense [15]. The role of treasurer is now back fully in Philip's hands, and has approved the \$2,000 laptop.  This draws questions on the integrity of Philip's leadership.
-
-Further discussions and sources:
-
-- https://linuxreviews.org/Manjaro_Linux_Lead_Developer_In_Hot_Waters_Over_Donation_Slush_Fund_For_Laptop_And_Personal_Items
-- https://www.reddit.com/r/ManjaroLinux/comments/hwo33h/change_of_treasurer_for_manjaro_community_funds/
-- https://www.reddit.com/r/linux/comments/hwoev3/change_of_treasurer_for_manjaro_community_funds/
-- https://web.archive.org/web/20200807042341/https://forum.manjaro.org/t/change-of-treasurer-for-manjaro-community-funds/154888
 
 ## Links
 [1] https://wiki.manjaro.org/index.php?title=Manjaro:_A_Different_Kind_of_Beast
