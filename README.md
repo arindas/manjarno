@@ -128,7 +128,8 @@ Further info on the steps they have taken: [17], [18], [19]
 On 2021-04-26, the AUR (Arch User Repository) faced a huge web traffic spike from pamac clients, caused 
 by a bad version of pamac, which is the default Graphical Package Manager for Manjaro [9].
 
-On 2021-10-14, Pamac was once again blocked by the AUR for shipping another bad version that flooded the AUR with requests [10, 11].
+On 2021-10-14, Pamac was once again blocked by the AUR for shipping another version that flooded the AUR with requests [10, 11]. However the updated version itself
+was meant to mitigate problems. (See above)
 
 
 ## Links
