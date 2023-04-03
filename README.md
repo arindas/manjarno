@@ -15,6 +15,10 @@ distributing packages for theming, some small utilities and
 drivers - none of which override any packages in Arch mainline
 repositories.
 
+__Note__: Some of the core problems, including pacmac traffic [17], [18], [19], and security
+vulnerabilities in the Manjaro system updater [2] have since been fixed. The package
+respository issues are rare in practice and are often isolated to individual packages.
+
 ## Package Repository issues
 
 Manjaro maintains a separate repository that is not in sync with Arch's
@@ -44,11 +48,18 @@ Manjaro, it will break because Manjaro holds back packages. So the only
 way Manjaro can be stable is by literally forking all the Arch related
 repositories including the AUR and keeping them in sync.
 
-## Security
-Manjaro is not really a secure distro.
+However it is important to note that often these problems are isolated to
+single packages and not the system as a whole. Please read 
+https://github.com/arindas/manjarno/issues/25#issue-1637778277 
+for additional context.
 
-Their own updater had a serious security vulnerability which has fortunately 
-been fixed [2]. This is actually a core package, not an extra or
+## Security
+
+The Manjaro system updater used to have a serious security vulnerability which has fortunately 
+been __fixed__ [2]. 
+
+### The vulnerability that used to exist
+This is actually a core package, not an extra or
 community package. To quote the list,
 
 > I have discovered an issue with one of your core Manjaro packages,
@@ -85,10 +96,37 @@ The second time when the SSL certificates expired, they did the same [7].
 The third SSL certificate expiration was handled a little more sanely[8].
 The fourth time, HSTS was set but the website was still down [16].
 
-## DDoS'ing the AUR
+## Sending Unexpectedly Large Traffic volume to AUR
 
-On 2021-04-26, the AUR (Arch User Repository) was DDoS'd by a bad version
-of pamac, which is the default Graphical Package Manager for Manjaro [9].
+In the past, this repository has used the term DDOS for this scenario. However, the term [DDOS](https://www.cloudflare.com/learning/ddos/what-is-a-ddos-attack/) has a very specific meaning, and it is not
+the right term to use in this context.
+
+### Status Quo: Mon, 23 April, 2023
+Manjaro developers have developed thorough technical solutions to mitigate the huge traffic spike from pamac installations.
+They have outlined the steps taken here https://github.com/arindas/manjarno/issues/25#issuecomment-1493584665
+
+>So how did we fix all of that? Well, we didn't do it alone. We had help and support by developers and even company >partners. In such cases you can only do it with partners.
+
+>With Pamac 10.5.0 release we even optimized on how the search functions in general, but step by step.
+>
+>    - first we delayed the search and not issue a query when there was a keystroke
+>    - then Arch AUR Developers started to create a database which we downloaded. (Due to our big user base even that >created issues)
+>    - we transferred the 8 MB to our own CDN infrastructure which is sponsored by CDN77
+>    now we pre-load the databases locally so pamac does searches "offline"
+
+>It is a process and complex issues won't get solved in a blink of a second.
+
+>So to conclude:
+
+>    - we shipped a new version of pamac to our stable branch that accidentally sent thousands of requests on the >2020-04-26 to the AUR per user. This rendered the AUR offline for all users across every Arch-based distro for a few >hours.
+>    - on the 2021-10-14 we shipped a new pamac version to our stable branch, which includes an updated search >feature across the application. However it resulted in pamac being blocked again. This may have been the cause for >the day’s earlier outage.
+
+Further info on the steps they have taken: [17], [18], [19]
+
+### Pamac history
+
+On 2021-04-26, the AUR (Arch User Repository) faced a huge web traffic spike from pamac clients, caused 
+by a bad version of pamac, which is the default Graphical Package Manager for Manjaro [9].
 
 On 2021-10-14, Pamac was once again blocked by the AUR for shipping another bad version that flooded the AUR with requests [10, 11].
 
@@ -118,6 +156,10 @@ On 2021-10-14, Pamac was once again blocked by the AUR for shipping another bad 
 
 [12] https://archived.forum.manjaro.org/t/manjaro-is-taking-the-next-step/102105
 
-
-
 [16] https://manjarno.snorlax.sh/expiry-2022-08-17.png
+
+[17] https://gitlab.manjaro.org/applications/pamac/-/issues/1017
+
+[18] https://gitlab.manjaro.org/applications/pamac/-/issues/1135
+
+[19] https://gitlab.manjaro.org/applications/pamac/-/issues/1161
